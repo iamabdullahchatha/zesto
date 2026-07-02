@@ -81,9 +81,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:title", content: "Zesto Foods — Premium Halal Snacks" },
       { property: "og:description", content: SITE.description },
       { property: "og:type", content: "website" },
+      { property: "og:image", content: "/og-image.webp" },
+      { property: "og:image:alt", content: "Zesto Foods premium halal snacks packaging" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "Zesto Foods — Premium Halal Snacks" },
       { name: "twitter:description", content: SITE.description },
+      { name: "twitter:image", content: "/og-image.webp" },
+      { name: "twitter:image:alt", content: "Zesto Foods premium halal snacks packaging" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
