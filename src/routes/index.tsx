@@ -26,8 +26,8 @@ import {
   Minus,
   Quote,
 } from "lucide-react";
-import machineImg from "@/assets/machine.webp";
-import hygieneImg from "@/assets/rack.jpg";
+import halalImg from "@/assets/halal.webp";
+import hygieneImg from "@/assets/hygine.webp";
 import { IMG, PRODUCTS, FAQS, SITE } from "@/lib/site";
 import { Reveal, Stagger, StaggerItem } from "@/components/Reveal";
 import { SectionHeader } from "@/components/SectionHeader";
@@ -398,7 +398,7 @@ function AboutBrief() {
         <Reveal className="relative">
           <TiltCard maxTilt={6} className="group relative">
             <div className="relative aspect-[4/5] rounded-3xl overflow-hidden shadow-elev">
-              <img src={machineImg} alt="Zesto Foods manufacturing machine" className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" />
+              <img src={halalImg} alt="Zesto Foods halal-certified snack manufacturing" className="h-full w-full object-cover object-center transition-transform duration-700 group-hover:scale-105" />
               <div className="absolute inset-0 bg-gradient-to-tr from-primary/30 via-transparent to-transparent" />
               <div className="absolute inset-0 ring-1 ring-inset ring-white/10 rounded-3xl" />
             </div>
@@ -656,7 +656,7 @@ function SafetyHygiene() {
         <Reveal className="lg:order-2">
           <TiltCard maxTilt={5} className="group relative">
             <div className="relative aspect-[5/4] rounded-3xl overflow-hidden shadow-elev">
-              <img src={hygieneImg} alt="Food safety and hygiene standards" className="h-full w-full object-cover" />
+              <img src={hygieneImg} alt="Food safety and hygiene standards" className="h-full w-full object-cover object-center" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
               <div className="absolute bottom-6 left-6 right-6 flex items-center gap-3 rounded-2xl glass px-4 py-3">
                 <ShieldCheck className="text-primary" />
