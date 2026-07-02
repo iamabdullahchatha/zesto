@@ -20,7 +20,7 @@ const logoImg = findAsset("logo");
 const nimkoImg = findAsset("nimko-bowl");
 const potatoChipsImg = findAsset("snacks-bowl");
 const cornSnacksImg = findAsset("variety");
-const masalaSnacksImg = findAsset("masla-nimko");
+const masalaSnacksImg = findAsset("masala");
 const saltedSnacksImg = findAsset("snack");
 
 export const SITE = {

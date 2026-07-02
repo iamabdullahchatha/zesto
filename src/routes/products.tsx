@@ -2,6 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 import { useMemo, useRef, useState } from "react";
 import { ArrowRight, MessageCircle, Package, ShieldCheck, Sparkles } from "lucide-react";
+import productRangeImg from "@/assets/product.webp";
 import { IMG, PRODUCTS, SITE } from "@/lib/site";
 import { Reveal, Stagger, StaggerItem } from "@/components/Reveal";
 import { SectionHeader } from "@/components/SectionHeader";
@@ -114,7 +115,7 @@ function ProductsPage() {
           <Reveal delay={0.15}>
             <TiltCard maxTilt={6} className="group">
               <div className="rounded-3xl overflow-hidden aspect-[4/3] shadow-elev">
-                <img src={IMG.hero[1]} alt="Zesto Foods product range" className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                <img src={productRangeImg} alt="Zesto Foods product range" className="h-full w-full object-cover object-center transition-transform duration-700 group-hover:scale-105" />
               </div>
             </TiltCard>
           </Reveal>
